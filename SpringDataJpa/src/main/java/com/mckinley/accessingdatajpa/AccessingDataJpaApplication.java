@@ -25,6 +25,7 @@ public class AccessingDataJpaApplication {
 			repository.save(new Customer("Kim", "Bauer"));
 			repository.save(new Customer("David", "Palmer"));
 			repository.save(new Customer("Michelle", "Dessler"));
+			repository.save(new Customer("Gary", "McKinley"));
 
 			// fetch all customers
 			log.info("Customers found with findAll():");
